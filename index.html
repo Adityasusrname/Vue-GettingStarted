@@ -17,8 +17,11 @@
         </div>
     </br>
         <button @click="toggleShowBooks">
-            <span>
+            <span v-if="showBooks">
                 Hide books
+            </span>
+            <span v-if="!showBooks">
+                Show books
             </span>
         </button>
         
