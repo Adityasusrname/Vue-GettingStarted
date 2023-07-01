@@ -7,7 +7,8 @@ const app = Vue.createApp({
             click:1,
             showBooks:true,
             x:0,
-            y:0
+            y:0,
+            url:'https://www.google.com/'
         }
     },
     methods:{
